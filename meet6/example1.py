@@ -14,8 +14,8 @@ def klasifikasiSkor():
     elif skor_akhir >= 521 and skor_akhir <= 677:
         print("Advance")
     
-listening = 63
-written = 63
-reading = 63
+listening = int(input('Input nilai: '))
+written = int(input('Input nilai: '))
+reading = int(input('Input nilai: '))
 
 klasifikasiSkor()

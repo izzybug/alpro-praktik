@@ -43,7 +43,7 @@ while True:
     elif choice == '5':
         print("*"*6," HAPUS SEMUA DATA ","*"*6)
         clear_data = input("Apakah anda yakin ingin menghapus semua data (YA?TIDAK) :")
-        if clear_data == 'ya':
+        if clear_data == 'YA':
             cars.clear()
         else:
             continue
@@ -51,6 +51,7 @@ while True:
     elif choice == '6':
         cars.sort()
         print("Data anda sudah diurutkan")
+        print(cars)
     
     elif choice == '7':
         print("*"*6," KELUAR APLIKASI ","*"*6)
