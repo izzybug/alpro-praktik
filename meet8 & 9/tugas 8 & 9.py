@@ -132,14 +132,15 @@ while True:
         if (bayar < total):
             print('Maaf,saldo anda kurang!')
         else:
-            # Reset pesanan
-            total = 0
-            nama = ''
-            pesanan_makan= []
-            pesanan_minum= []
-        print("*******************************")
-        now = datetime.datetime.now()
-        print('dibuat pada: ',now)
+            
+            print("*******************************")
+            now = datetime.datetime.now()
+            print('dibuat pada: ',now)
+        # Reset pesanan
+        total = 0
+        nama = ''
+        pesanan_makan= []
+        pesanan_minum= []
 
     elif pil == '5':
         print("******** RANDOM PESANAN ********")
@@ -152,7 +153,7 @@ while True:
             
         for j in range(auto_pesanan_minuman):
             tuple_minum_pesan = (minuman[random.randint(0,6)][0], random.randint(1,3))
-            pesanan_makan.append(tuple_minum_pesan)
+            pesanan_minum.append(tuple_minum_pesan)
         
         print("Order berhasil digenerate random....")
         
