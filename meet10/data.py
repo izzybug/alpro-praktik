@@ -1,7 +1,7 @@
 import sqlite3
 
 # Init Database
-db = sqlite3.connect("human_resource_db_5210411144.db")
+db = sqlite3.connect("alpro-praktik/db/human_resource_db_5210411144.db")
 cursor = db.cursor()
 
 #Membuat Tabel
